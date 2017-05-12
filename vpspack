@@ -627,6 +627,9 @@ userdel $user
 echo "$user Deletado"
 done
 }
+function OpenVPN(){
+wget https://raw.githubusercontent.com/ColtSeals/MenuVPS/master/OpenVPN && bash OpenVPN
+}
 clear
 if [[ $1 == "" ]]
 then
