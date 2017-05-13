@@ -666,7 +666,7 @@ case $opcao in
   22)
    speedtest.py;;
   23)
-   OpenVPN
+   OpenVPN;;
   24)
    deletar_todos;;
   25)
